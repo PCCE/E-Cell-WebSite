@@ -1,44 +1,134 @@
 <!doctype html>
-<html class="js" lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>PCCE E-Cell</title>
+    <meta name="description" content="Entrepreneurship Cell of PCCE Goa">
+    <meta name="author" content="Glen D'souza">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#ffffff">
 
-        <link rel="apple-touch-icon" href="apple-touch-icon.png">
-        <!-- Place favicon.ico in the root directory -->
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/boilerplate.css">
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/boilerplate.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/main.css">
 
-        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
-    </head>
-    <body>
-        <!--[if lt IE 8]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
+    <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet' type='text/css'>
 
-        <!-- Add your site or application content here -->
-        <p>Hello world! This is HTML5 Boilerplate.</p>
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+  </head>
+  <body data-spy="scroll" data-target=".navbar">
+    <!--[if lt IE 8]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
 
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
-        <script src="js/plugins.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/main.js"></script>
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#home">PCCE E-Cell</a>
+        </div>
 
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script>
-            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-            e.src='https://www.google-analytics.com/analytics.js';
-            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-XXXXX-X','auto');ga('send','pageview');
-        </script>
-    </body>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="navbar">
+          <ul class="nav navbar-nav">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#events">Events</a></li>
+            <li><a href="#team">The Team</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+
+    <div id="home" style="height:360px;position:relative;">
+      <canvas></canvas>
+    </div>
+    <div class="ec-container-center animated fadeInUp">
+      <div class="ec-text-center">
+        <div class="ec-logo animated fadeInUp heartBeat"></div>
+        <h1>PCCE E-Cell</h1>
+        <p class="ec-text-xlarge">
+          Development starts with imagination<br>
+          &bull; &bull; &bull;
+        </p>
+      </div>
+    </div>
+
+    <section id="events" class="section">
+      <div class="event-grad text-center" style="padding: 2%;">
+        <h1 class="event-text">Business Idea Competition</h1>
+        <img src="img/ec.header.png" style="padding: 5%;max-width: 100%;height: auto;"></img>
+        <h2 class="event-text">Rules:</h2>
+        <p class="event-text event-rules">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eget lorem ultricies, ornare sapien ac, consequat eros. Suspendisse porttitor quam at tortor porta scelerisque et eu tortor. Aenean non placerat erat, eu auctor dolor. Suspendisse condimentum volutpat diam, a finibus sem hendrerit a. Ut nulla dui, maximus nec sem nec, dictum suscipit risus. Vivamus efficitur mauris vitae odio pulvinar, at pretium nunc tempus. Integer maximus nunc non placerat egestas. Suspendisse finibus risus tellus, eget tincidunt lacus fringilla ut. Nam placerat ex vitae arcu venenatis rutrum. Maecenas blandit tristique nulla, at pellentesque nisi. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Proin posuere, massa et sodales ornare, orci metus viverra urna, commodo bibendum nibh nibh eu nisl.
+
+Phasellus at sagittis mi. Sed fermentum mollis turpis, quis consequat magna vestibulum at. Curabitur in vestibulum magna. Nam tortor diam, tristique aliquet aliquet eu, ornare sit amet libero. Nam ornare pulvinar nulla, sit amet ornare mauris pulvinar at. Duis sit amet consectetur odio. Maecenas nec sapien sapien. Vivamus blandit nibh non nisl sollicitudin rutrum. Sed facilisis ut metus tristique hendrerit. Ut pellentesque augue a ex pharetra vulputate. Nullam feugiat vestibulum nulla, et dictum nisl posuere in. Sed eu fermentum felis, et viverra mi. Nullam lacinia tristique elit eu venenatis. In purus diam, cursus sed commodo et, lobortis sed lacus. Quisque blandit nisi a malesuada facilisis. Cras blandit metus et sem ultrices, vitae condimentum metus fermentum.
+
+Suspendisse eleifend dictum tincidunt. Morbi lobortis faucibus ipsum in tempor. Morbi quam dui, laoreet eget malesuada sit amet, lobortis vel dolor. Vivamus consequat luctus tortor, nec vestibulum ex semper a. Maecenas porttitor pellentesque nisl, in ultrices justo feugiat sed. Nulla facilisi. Aenean ac feugiat arcu, nec aliquet arcu. Aliquam vel velit quis nunc pulvinar laoreet. Donec purus turpis, accumsan eget augue id, sollicitudin feugiat elit. Integer imperdiet volutpat sapien non fringilla. Integer blandit nec sapien sit amet accumsan.
+
+Duis feugiat urna non enim ultrices dictum. Quisque volutpat eget ipsum sollicitudin efficitur. Fusce aliquet urna sed nulla rutrum porta vitae vel ex. Suspendisse dapibus sed arcu vitae dictum. In semper malesuada massa vel sodales. Nam tempus porta sapien vel interdum. Vestibulum hendrerit, nibh vitae convallis imperdiet, urna enim vestibulum sem, quis dapibus nunc felis eu nisi. Ut tempus tristique ipsum, vitae rutrum lectus efficitur sit amet. Vivamus semper vitae nulla sit amet sagittis. Aliquam condimentum velit in lorem semper tincidunt. Suspendisse mi ex, convallis nec rhoncus at, varius in odio. Morbi fringilla laoreet elit.
+
+Praesent quis faucibus ex. Proin non facilisis orci. Suspendisse viverra augue dignissim quam convallis, sit amet consequat mauris fermentum. Nam commodo gravida libero, eu luctus sapien malesuada et. Sed quis tempor risus. Vestibulum at ipsum ac dui suscipit sagittis eu eu turpis. Pellentesque luctus pharetra magna, sed auctor nisi ullamcorper vel. Nam ultrices vulputate nibh, vitae ultrices justo. Ut commodo pharetra sapien, sit amet finibus justo tempus quis. Donec eleifend lectus non efficitur elementum. Quisque non accumsan turpis, eu pulvinar justo. Vivamus a enim volutpat, interdum enim id, posuere eros. Donec ornare, eros et dictum dictum, erat massa imperdiet est, quis vehicula mi eros sit amet turpis. Sed posuere risus nec ultrices porta. Curabitur finibus dignissim ex ut tristique.
+        </p>
+      </div>
+    </section>
+    <section id="team" class="section">
+      <div class="card">
+        <div class="image">
+          <img src="http://i.imgur.com/WerlaFe.jpg">
+          <span class="title">Card Title</span>
+        </div>
+        <div class="content">
+          <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="image">
+          <img src="http://i.imgur.com/Yvk9fN7.png">
+          <span class="title">Card Title</span>
+        </div>
+        <div class="content">
+          <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+        </div>
+      </div>
+    </section>
+    <section id="about" class="section"></section>
+    <section id="contact" class="section"></section>
+
+    <footer>
+      <p class="pull-right"><a href="#home">Back to top</a></p>
+      <p>&copy; 2015 PCCE &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
+    <script src="js/plugins.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/dotmatrix.js"></script>
+    <script src="js/main.js"></script>
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+      e.src='https://www.google-analytics.com/analytics.js';
+      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+      ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+    </script>
+  </body>
 </html>
