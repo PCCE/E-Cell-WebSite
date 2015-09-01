@@ -1,7 +1,6 @@
 body{
   font-family: 'Oxygen', 'Roboto', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  text-rendering: optimizeLegibility;
+  font-size: 12pt;
 }
 
 *::-webkit-scrollbar {
@@ -146,26 +145,19 @@ canvas{
 }
 
 .event-text {
-  font-family: 'Raleway', 'Oxygen', sans-serif;
   color: white;
 }
 
 .event-rules {
-  -webkit-column-count: 2; /* Chrome, Safari, Opera */
-  -moz-column-count: 2; /* Firefox */
-  column-count: 2;
-  -webkit-column-rule: 1px hidden white; /* Chrome, Safari, Opera */
-  -moz-column-rule: 1px hidden white; /* Firefox */
-  column-rule: 1px hidden white;
-  font-family: 'Oxygen', sans-serif;
   text-align: justify;
   padding: 2%;
+  margin: auto 5%;
 }
 
 .card {
   display: inline-block;
   vertical-align: top;
-  width: 350px;
+  width: 200px;
   position: relative;
   overflow: hidden;
   margin: 10px;
@@ -175,8 +167,8 @@ canvas{
   border-radius: 2px;
 }
 .card .title {
-  line-height: 48px;
-  font-size: 24px;
+  line-height: 30px;
+  font-size: 20px;
   font-weight: 300;
 }
 .card .content {
@@ -214,7 +206,18 @@ canvas{
 .card .image .title {
   position: absolute;
   bottom: 0;
-  left: 0;
-  padding: 20px;
+  left: 2%;
+  padding: 2%;
   color: #FFF;
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+.team-layout {
+    display:block;
+    max-width:1000px;
+    text-align:center;
+    margin:0 auto;
 }
