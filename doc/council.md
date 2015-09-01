@@ -1,9 +1,14 @@
 # E-Cell Council
 
+
 President - Ninio Correia
+
 Vice President - Royston Braganza
+
 General Secretary - Rishubh Parsekar
+
 Treasurer - Sherwin Furtado
+
 
 Marketing and PR
 ----------------
@@ -13,6 +18,7 @@ Marketing and PR
 * Alisha Jose
 * Newon Gonsalves
 
+
 Corporate and Industrial Relations
 ----------------------------------
 
@@ -21,6 +27,7 @@ Corporate and Industrial Relations
 * Amol Pednekar
 * Russell Fernandes
 
+
 Student Entrepreneurship Network
 --------------------------------
 
@@ -28,6 +35,7 @@ Student Entrepreneurship Network
 * Kristen Collaco
 * Milind Jakati
 * Biswas Tiwari
+
 
 Web, Creative and Editorial
 ---------------------------
